@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortest Route Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Shortest Route Finder using BFS</h1>
+        <div class="input-section">
+            <label for="start">Start Node:</label>
+            <input type="text" id="start" placeholder="e.g., A">
+        </div>
+        <div class="input-section">
+            <label for="end">End Node:</label>
+            <input type="text" id="end" placeholder="e.g., D">
+        </div>
+        <button onclick="findShortestPath()">Find Shortest Path</button>
+        <div id="result"></div>
+        <canvas id="graphCanvas" width="400" height="300"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
